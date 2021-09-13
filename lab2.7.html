@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task 2.7</title>
+        <link rel="stylesheet" href="style2.7.css" type = "text/css">
+        <style>
+                .d1{
+	        background-color: blueviolet;
+	        color:white;
+	        height:100px;
+	        width:150px;
+	        position:static;
+                }
+
+                .d2{
+	        background-color: darkred;
+	        color:white;
+	        height:100px;
+	        width:150px;
+	        position:relative;
+                }
+
+                .d3{
+	        background-color: peru;
+	        color:white;
+	        height:100px;
+	        width:150px;
+	        position:relative;
+	        bottom:35px;
+	        left:35px;
+                }
+
+                .d4{
+	        background-color: indianred;
+	        color:white;
+	        height:400px;
+	        width:650px;
+	        position:relative;
+	        margin:0px 0px 0px 10px;
+                }
+
+                .d5{
+	        background-color: indigo;
+	        color:white;
+	        height:250px;
+	        width:350px;
+	        position:absolute;
+	        right:0px;
+	        bottom: 60px;
+                }
+
+                .d6{
+	        background-color: forestgreen;
+	        color:white;
+	        height:100px;
+	        width:100px;
+	        position:fixed;
+	        bottom:0px;
+	        right:0px;
+                }
+        </style>
+    </head>
+    <body>
+		<div class = "d1">
+			It's a static div!
+		</div>
+		<div class = "d2">
+			It's a relative div!
+		</div>
+		<div class = "d3">
+			It's a relative div!
+		</div>
+		<div class = "d4">
+			It's a relative div!
+			<div class = "d5">
+			It's an absolute div with relative parent!
+			</div>
+		</div>
+		<div class = "d6">
+			It's a fixed div!
+		</div>
+    </body>
+</html>
